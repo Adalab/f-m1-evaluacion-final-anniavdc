@@ -2,6 +2,7 @@
     background: url("../images/cover.jpg");
     height: 568px;
     background-size: cover;
+    position: relative;   
 }
 
 .header__container{
@@ -11,7 +12,7 @@
     height: 100%;
     width: 290px;
     margin: 0 auto;
-
+    
 }
 
 .header-title{
@@ -37,10 +38,23 @@
     background-color: $colorPrimary-0;
     border-radius: 50%;
     @include flexCentered();
+    margin-bottom: 53px;
 }
 
 .header-scroll__link{
- 
+    width: 100%;
 }
+
+.hamburguer-menu__item{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 45px;
+    height: 45px;
+    background-color: $colorSecondary-700;
+}
+
+
+
 
 
