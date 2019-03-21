@@ -6,17 +6,41 @@
 
 .header__container{
     text-align: center;
-    @include flexCentered();
+    @include flexEndCentered();
     flex-direction: column;
     height: 100%;
     width: 290px;
+    margin: 0 auto;
+
 }
 
 .header-title{
     text-transform: uppercase;
     font-family: $fontSecondary;
     font-weight: bold;
-    color: $colorPrimary;
+    color: $colorPrimary-0;
+    margin-bottom: 0;
+    font-size: 42px;
+}
+
+.header-subtitle{
+    margin-top: 10px;
+    color: $colorPrimary-0;
+    font-size: 1rem;
+    font-family: $fontPrimary;
+    margin-bottom: 45px;
+}
+
+.header-scroll__item{
+    height: 45px;
+    width: 45px;
+    background-color: $colorPrimary-0;
+    border-radius: 50%;
+    @include flexCentered();
+}
+
+.header-scroll__link{
+ 
 }
 
 
