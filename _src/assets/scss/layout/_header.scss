@@ -1,0 +1,22 @@
+.header-img{
+    background: url("../images/cover.jpg");
+    height: 568px;
+    background-size: cover;
+}
+
+.header__container{
+    text-align: center;
+    @include flexCentered();
+    flex-direction: column;
+    height: 100%;
+    width: 290px;
+}
+
+.header-title{
+    text-transform: uppercase;
+    font-family: $fontSecondary;
+    font-weight: bold;
+    color: $colorPrimary;
+}
+
+
