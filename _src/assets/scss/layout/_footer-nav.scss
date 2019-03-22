@@ -6,10 +6,13 @@
     color: $colorPrimary-0;
 
     @media all and (min-width:768px){
-        @include flexStart();
+        @include flexCenteredStart();
         height: 240px;
         padding-top: 45px;
         
+    }
+    @media all and (min-width:1280px){
+        @include flexStart();
     }
 
 }
@@ -95,9 +98,9 @@
 
 @keyframes top-dot {
     from {
-      transform: translate(0, -10px);
+      transform: translate(-50%, -10px);
     }
     to {
-      transform: translate(0, -50%);
+      transform: translate(-50%, -50%);
     }
   }

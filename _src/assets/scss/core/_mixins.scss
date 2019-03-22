@@ -16,6 +16,12 @@
     align-items: flex-start;
 }
 
+@mixin flexCenteredStart(){
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+
 @mixin dot {
     height: 45px;
     width: 45px;
