@@ -3,7 +3,12 @@
     height: 568px;
     background-size: cover;
     position: relative;  
-    height: 100vh;
+    min-height: 100vh;
+    height: 568px;
+
+    @media all and (min-width:768px){
+        height: 768px;
+    }
 }
 
 .header__container{
@@ -23,6 +28,11 @@
     color: $colorPrimary-0;
     font-size: 2.625rem;
     line-height: 55px;
+
+    @media all and (min-width:768px){
+        font-size: 5rem;
+        line-height: 106px;
+    }
 }
 
 .header-subtitle{
@@ -30,12 +40,25 @@
     color: $colorPrimary-0;
     font-size: 1rem;
     margin-bottom: 45px;
+    font-weight: 400;
+
+    @media all and (min-width:768px){
+        font-size: 1.5rem;
+        margin-bottom: 30px;
+        margin-top: 20px;
+        width: 360px; 
+    }
 }
 
 .header-scroll__item{
     @include dot();
     @include flexCentered();
     margin-bottom: 53px;
+
+    @media all and (min-width:768px){
+        margin-bottom: 45px;
+    }
+
 }
 
 .header-scroll__link{

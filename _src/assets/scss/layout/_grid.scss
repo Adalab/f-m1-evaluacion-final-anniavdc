@@ -5,4 +5,10 @@
     grid-template-columns: 1fr;
     grid-template-rows: 1fr 1fr 1fr;
     text-align: center;
+
+    @media all and (min-width:768px){
+        margin: 39px;
+        height: 397px;
+    }
+
 }

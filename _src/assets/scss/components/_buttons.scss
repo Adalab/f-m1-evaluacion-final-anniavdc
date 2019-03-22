@@ -15,6 +15,10 @@
     &:hover{
         transform: scale(1.1);
     }
+
+    @media all and (min-width:768px){
+        width: 91px;
+    }
 }
 
 .bcg__button{

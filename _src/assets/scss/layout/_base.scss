@@ -2,6 +2,8 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+    // -webkit-text-size-adjust: none;
+
 }
 
 html{
@@ -12,8 +14,7 @@ body{
     background-color: $colorPrimary-0;
     color: $colorPrimary-1000;
     font-family: $fontPrimary;
-    line-height: 30px;
-    
+    line-height: 30px;   
 }
 
 button{
