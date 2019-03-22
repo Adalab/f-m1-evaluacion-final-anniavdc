@@ -33,10 +33,7 @@
 }
 
 .header-scroll__item{
-    height: 45px;
-    width: 45px;
-    background-color: $colorPrimary-0;
-    border-radius: 50%;
+    @include dot();
     @include flexCentered();
     margin-bottom: 53px;
 }
