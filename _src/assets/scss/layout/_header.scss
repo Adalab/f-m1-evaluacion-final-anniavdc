@@ -33,6 +33,12 @@
         font-size: 5rem;
         line-height: 106px;
     }
+
+    @media all and (min-width:1280px){
+        font-size: 6.25rem;
+        line-height: 132px;
+    }
+
 }
 
 .header-subtitle{
@@ -48,6 +54,11 @@
         margin-top: 20px; 
         width: 400px;
     }
+
+    @media all and (min-width:1280px){
+        margin-top: 0;
+    }
+
 }
 
 .header-scroll__item{
@@ -57,6 +68,10 @@
 
     @media all and (min-width:768px){
         margin-bottom: 45px;
+    }
+
+    @media all and (min-width:1280px){
+        margin-bottom: 13px;
     }
 
 }
