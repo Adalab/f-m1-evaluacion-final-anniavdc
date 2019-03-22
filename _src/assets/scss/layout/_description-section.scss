@@ -60,4 +60,9 @@
 #anchoring-description{
     position: relative;
     top: -75px;
+
+    @media all and (min-width:1280px){
+        top: 0;
+    }
+
 }
