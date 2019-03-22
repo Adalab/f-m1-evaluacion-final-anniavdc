@@ -1,6 +1,9 @@
 .footer-nav__container{
     background-color: $colorSecondary-1000;
     position: relative;
+    padding-top: 60px;
+    height: 465px;
+    color: $colorPrimary-0;
 }
 
 .footer-scroll__link{
@@ -10,4 +13,29 @@
     z-index: 5;
     left: 50%;
     transform: translate(-50%, -50%);
+}
+
+.footer-menu__list{
+    text-transform: uppercase;
+    font-size: 1rem;
+    text-align: center;
+}
+
+.footer-menu__link{
+    text-decoration: none;
+    color: inherit;
+}
+
+.social-media__items{
+    margin-top: 45px;
+}
+
+.main-footer{
+    font-size: 0.875rem;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.icon-color{
+    color: $colorTertiary;
 }
