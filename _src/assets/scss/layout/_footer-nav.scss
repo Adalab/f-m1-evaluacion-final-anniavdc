@@ -1,0 +1,13 @@
+.footer-nav__container{
+    background-color: $colorSecondary-1000;
+    position: relative;
+}
+
+.footer-scroll__link{
+    @include dot();
+    @include flexCentered();
+    position: absolute;
+    z-index: 5;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
