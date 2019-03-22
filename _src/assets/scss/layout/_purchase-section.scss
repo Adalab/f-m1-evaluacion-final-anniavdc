@@ -6,6 +6,7 @@
 
     @media all and (min-width:768px){
         margin-top: 60px;
+        height: 397px;
     }
 
 }
@@ -22,11 +23,23 @@
  
 }
 
+.purchase-section__list{
+    @media all and (min-width:768px){
+        display: flex;
+    }
+
+}
+
 .section-list__item{
     list-style: none;
     width: 180px;
     margin: 0 auto 45px auto;
-    
+
+    @media all and (min-width:768px){
+        width: 210px;
+        margin-bottom: 60px;
+    }
+
 }
 
 .section-list__title{
