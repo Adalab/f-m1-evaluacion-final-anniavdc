@@ -2,7 +2,8 @@
     background: url("../images/cover.jpg");
     height: 568px;
     background-size: cover;
-    position: relative;   
+    position: relative;  
+    height: 100vh;
 }
 
 .header__container{
@@ -43,7 +44,7 @@
 }
 
 .hamburguer-menu__item{
-    position: absolute;
+    position: fixed;
     top: 0;
     left: 0;
     width: 45px;
