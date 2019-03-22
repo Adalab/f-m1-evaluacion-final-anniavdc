@@ -11,4 +11,9 @@
         height: 397px;
     }
 
+    @media all and (min-width:1280px){
+        grid-template-rows: auto 1fr auto;
+    }
+
+
 }

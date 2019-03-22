@@ -4,6 +4,12 @@
     @media all and (min-width:768px){
         margin: 30px 39px 0 39px;
     }
+
+    @media all and (min-width:1280px){
+        max-width: 730px;
+        margin: 60px auto 0 auto;
+    }
+
 }
 
 .up-subtitle{
@@ -11,6 +17,11 @@
     font-size: 0.875rem;
     margin: 0;
     text-transform: capitalize;
+
+    @media all and (min-width:1280px){
+        font-size: 1rem;
+    }
+
 }
 
 .description-section__title{
@@ -22,6 +33,11 @@
 
     @media all and (min-width:768px){
         font-size: 1.625rem;
+    }
+
+    @media all and (min-width:1280px){
+        font-size: 2rem;
+        line-height: 45px;
     }
 
 }
@@ -36,6 +52,9 @@
         font-size: 1.25rem;
     }
 
+    @media all and (min-width:1280px){
+        font-size: 1.25rem;
+    }
 }
 
 #anchoring-description{

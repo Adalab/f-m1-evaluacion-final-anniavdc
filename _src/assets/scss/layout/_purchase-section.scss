@@ -20,6 +20,12 @@
     @media all and (min-width:768px){
         font-size: 1.625rem;
     }
+
+    @media all and (min-width:1280px){
+        font-size: 2rem;
+        line-height: 45px;
+        margin-top: 60px;
+    }
  
 }
 
@@ -40,6 +46,9 @@
         margin-bottom: 60px;
     }
 
+    @media all and (min-width:1280px){
+        width: 350px;
+    }
 }
 
 .section-list__title{
@@ -47,6 +56,10 @@
 
     @media all and (min-width:768px){
         font-size: 1.5rem;
+    }
+
+    @media all and (min-width:1280px){
+        margin-bottom: 14px;
     }
 
 }
