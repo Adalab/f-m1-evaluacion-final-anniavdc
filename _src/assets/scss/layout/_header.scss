@@ -63,8 +63,9 @@
 
 .header-scroll__item{
     @include dot();
-    @include flexCentered();
+    // @include flexCentered();
     margin-bottom: 53px;
+    position: relative;
 
     @media all and (min-width:768px){
         margin-bottom: 45px;
@@ -78,6 +79,9 @@
 
 .header-scroll__link{
     width: 100%;
+    position: absolute;
+    top:23%;
+    transform: translate(-50%, 0);
 }
 
 .hamburguer-menu__item{
