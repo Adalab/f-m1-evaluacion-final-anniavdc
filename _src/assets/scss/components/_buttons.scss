@@ -2,10 +2,19 @@
     height: 45px;
     font-size: 1.25rem;
     border-radius: 22.5px;
+    font-family: $fontPrimary;
+    font-weight: 500;
 }
 
-.no-bgc__button{
+.border__button{
     width: 76px;
     color: $colorTertiary;
     border: 2px solid $colorTertiary;
+}
+
+.bcg__button{
+    width: 184px;
+    background-color: $colorTertiary;
+    color: $colorPrimary-0;
+    margin: 0 auto;
 }
