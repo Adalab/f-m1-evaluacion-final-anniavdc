@@ -4,6 +4,13 @@
     padding-top: 60px;
     height: 465px;
     color: $colorPrimary-0;
+
+    @media all and (min-width:768px){
+        @include flexStart();
+        height: 240px;
+        
+    }
+
 }
 
 .footer-scroll__link{
@@ -24,6 +31,11 @@
 
 .footer-menu__item{
     list-style: none;
+
+    @media all and (min-width:768px){
+        text-align: left;
+    }
+
 }
 
 .footer-menu__link{
@@ -33,14 +45,37 @@
 
 .social-media__items{
     margin-top: 45px;
+
+    @media all and (min-width:768px){
+        margin-top: 0;
+        width: 210px;
+    }
 }
 
 .main-footer{
     font-size: 0.875rem;
     text-align: center;
     margin-top: 30px;
+
+    @media all and (min-width:768px){
+        width: 210px;
+        margin-right: 30px;
+        margin-top: 0;
+        order: -1;
+        text-align: left;
+        margin-left: 39px;
+    }
+
 }
 
 .icon-color{
     color: $colorTertiary;
+}
+
+.general-menu{
+    @media all and (min-width:768px){
+        width: 210px;
+        margin-right: 30px;
+    }
+
 }

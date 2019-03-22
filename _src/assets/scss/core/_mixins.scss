@@ -10,6 +10,12 @@
     align-items: center;
 }
 
+@mixin flexStart(){
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
 @mixin dot {
     height: 45px;
     width: 45px;

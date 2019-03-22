@@ -31,4 +31,8 @@
     &:hover{
         transform: scale(1.05);
     }
+
+    @media all and (min-width:768px){
+        width: 210px;
+    }
 }
