@@ -67,6 +67,11 @@
         margin-left: 39px;
     }
 
+    @media all and (min-width:1280px){
+        width: 160px;
+        margin-left: 370px;
+    }
+
 }
 
 .icon-color{
@@ -79,4 +84,7 @@
         margin-right: 30px;
     }
 
+    @media all and (min-width:1280px){
+        width: 161px;
+    }
 }
